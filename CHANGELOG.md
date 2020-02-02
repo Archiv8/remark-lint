@@ -12,13 +12,36 @@ All notable changes to the project are documented in this file using rules based
 
 ## Unreleased
 
-- N/A
+| Commit  | Date       | Title / Overview                                      |
+| ------- | ---------- | ----------------------------------------------------- |
+|  latest | 2020-02-02 | :id: SHA: Regenerate mismatched sums                  |
+|  latest | 2020-02-02 | :date: CHANGE: Add items to changelog                 |
+| 7205a89 | 2020-02-02 | :pencil: DOC(spell): Update spellings list            |
+
+
+## [1.0.1] - 2020-02-02
+
+### This release addresses
+
+- Correction of SHA256 sums for checking files prior to install
+
+### This release includes
+
+| Commit  | Date       | Title / Overview                                      |
+| ------- | ---------- | ----------------------------------------------------- |
+| a7d7cb4 | 2020-02-02 | :wrench: FIX: Regenerate mismatched sums              |
 
 ## [1.0.0] - 2020-02-02
 
-### :tada: Initial Release
+### This release addresses
 
-- Release all files after performing final checks with namcap and ClamAV
+- Initialization of repository
+
+### This release includes
+
+| Commit  | Date       | Title / Overview                                      |
+| ------- | ---------- | ----------------------------------------------------- |
+| 41a551b | 2020-02-02 | :tada: INIT: Initial upload                           |
 
 ---
 
