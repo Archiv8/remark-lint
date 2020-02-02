@@ -15,7 +15,7 @@ All notable changes to the project are documented in this file using rules based
 | Commit  | Date       | Title / Overview                                      |
 | ------- | ---------- | ----------------------------------------------------- |
 |  latest | 2020-02-02 | :id: SHA: Regenerate mismatched sums                  |
-|  latest | 2020-02-02 | :date: CHANGE: Add items to changelog                 |
+| 5bca888 | 2020-02-02 | :date: CHANGE: Add items to changelog                 |
 | 7205a89 | 2020-02-02 | :pencil: DOC(spell): Update spellings list            |
 
 
