@@ -1,0 +1,28 @@
+pkgbase = nodejs-remark-lint
+	pkgdesc = Command line interface for remark, a markdown processor powered by plugins.
+	pkgver = 6.0.5
+	pkgrel = 1
+	url = https://github.com/remarkjs/remark-lint
+	changelog = CHANGELOG.md
+	arch = any
+	license = MIT
+	makedepends = jq
+	makedepends = npm
+	depends = nodejs
+	source = https://registry.npmjs.org/remark-lint/-/remark-lint-6.0.5.tgz
+	source = CC-by-SA-v4.md
+	source = CHANGELOG.md
+	source = ISSUES.md
+	source = LICENSE
+	source = LICENSE.md
+	source = README.md
+	sha256sums = 42929e6e1d0fbd2a1cf78ffc61b9ab0f28be3dccd6fd927bcae53efaf303e76c
+	sha256sums = 7f7239991e69ac06287d906ab892b5b53f5e61442c3d3544a34aa1c135f9e0ce
+	sha256sums = 86f91538f3bcd7ebee745307ecf0e8b55cfec05c6076e1cff186a07f4a97012e
+	sha256sums = 65a4dc155f621ebbc7703fb3961ec07f5dadce1494d3d811917c0c2c76539e4e
+	sha256sums = ed52f87c3904a045931ff47fef50c31840b2f80f3618ce7a9d188918a9f83357
+	sha256sums = 793d6a89bd8684b58c6d26c5212f0863ddb33c962afde7108a68b28e4388a9f8
+	sha256sums = b417d1ec977ca0e9788174c68b88408a45ea63d7ccf3ab19ae42310cf0949cbd
+
+pkgname = nodejs-remark-lint
+
