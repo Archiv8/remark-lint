@@ -4,14 +4,35 @@ _Exploring and Sharing Custom [Arch Linux](https://www.archlinux.org/) PKGBUILDs
 
 ---
 
-**_This repository contains unofficial packaging for an installation of [Remark Lint](https://github.com/remarkjs/remark-lint).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the remark-lint project._**
+**_This repository contains unofficial packaging for an installation of [Remark Lint](https://github.com/remarkjs/remark-lint).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the remark lint project.  The following license refers to that packaging and not the upstream software_**
 
 ---
 
-# License
+The MIT License (MIT)
+=====================
 
-Original documentation within this repository is released under the Creative Commons, Attribution-ShareAlike 4.0 International, license.  Any original code that appears in this repository is released under the MIT license.
+Copyright © 2017 to 2019 Ross Clark and Contributors
 
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the “Software”), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
 ---
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Documentation for this project is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
