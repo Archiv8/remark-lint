@@ -15,14 +15,16 @@ pkgbase = nodejs-remark-lint
 	source = ISSUES.md
 	source = LICENSE
 	source = LICENSE.md
+	source = MIT.md
 	source = README.md
 	sha256sums = 42929e6e1d0fbd2a1cf78ffc61b9ab0f28be3dccd6fd927bcae53efaf303e76c
-	sha256sums = 584d874b87eb746a2d563bc0749df6646c64c47d9b9b7f3dff57dd61d8e1b520
-	sha256sums = b15316064be817345886dfc76e2caeaac6a34eecc20d60f7233e0a96134a9ea4
-	sha256sums = b600dff74794fcd189b00805b4e07ea43105c51983cb2548485f31bee7064bb6
+	sha256sums = d5d0f08f7a548cefea3d4b072220bc4ec16811b06b633fb0ac6b3e8a0d62b525
+	sha256sums = e06e3b7393cf22a6dc6d33a8a28bc4b78cdab37da172ed01bcdc2cca5f7a6725
+	sha256sums = f7727b16418bdf612f03241680f540c9794f51a6ca0c17d2213025fd4854dcd4
 	sha256sums = ed52f87c3904a045931ff47fef50c31840b2f80f3618ce7a9d188918a9f83357
-	sha256sums = 5eed30c2de95d35fb62655d964011555f94b92db938dfaf5fe8bb6cb7a551e8e
-	sha256sums = cca67a86649e01698f0d87c1be927be2c6acda1437577eb1a946d8aaca0a17af
+	sha256sums = e26f4376e602cfa64081b5e6b23967c7a736c0286fa28284e5d430630f5aa493
+	sha256sums = 1ccf5a382a99834162a5ab6fbdff183aad0a1d1a347c025bf598e73cdfde6ab9
+	sha256sums = c3ac4a31b75628ca40bb5dc5c28d476deb33b62107a37faa071ae280f45a1a5b
 
 pkgname = nodejs-remark-lint
 
