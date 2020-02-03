@@ -18,6 +18,21 @@ All notable changes to the project are documented in this file using rules based
 | 5bca888 | 2020-02-02 | :date: CHANGE: Add items to changelog                 |
 | 7205a89 | 2020-02-02 | :pencil: DOC(spell): Update spellings list            |
 
+## [1.1.0] - 2020-02-03
+
+### This release addresses
+
+- Correction of SHA256 sums for checking files prior to install
+
+### This release includes
+
+| Commit  | Date       | Title / Overview                                      |
+| ------- | ---------- | ----------------------------------------------------- |
+| 7c7d966 | 2020-02-02 | :pencil: DOC(spell): Update spellings list            |
+| 7c7d966 | 2020-02-02 | :pencil: DOC(spell): Update spellings list            |
+| b4ff35f | 2020-02-02 | :id: SECURE: Regenerate sums for changed files        |
+| 5bca888 | 2020-02-02 | :date: CHANGE: Add items to changelog                 |
+| 7205a89 | 2020-02-02 | :pencil: DOC(spell): Update spellings list            |
 
 ## [1.0.1] - 2020-02-02
 
@@ -51,7 +66,7 @@ Any original software produced for [Archiv8](https://archiv8.github.io/) and / o
 
 The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors.
 
-(c) Documentation, 2017 - 2020 Ross Clark and [Archiv8 Contributors](https://github.com/Archiv8/nodejs-remark-lint/people)
+(c) Documentation and Code, 2017 - 2020 Ross Clark and [Archiv8 Contributors](https://github.com/Archiv8/nodejs-remark-lint/people)
 
 ---
 

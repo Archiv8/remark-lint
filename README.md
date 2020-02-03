@@ -1,4 +1,8 @@
-# Arch Linux package for [Remark Lint](https://github.com/remarkjs/remark-lint)
+[Archiv8](https://archiv8.github.io/)
+
+_Exploring and Sharing Custom [Arch Linux](https://www.archlinux.org/) PKGBUILDs_
+
+---
 
 **_This repository contains unofficial packaging for an installation of [Remark Lint](https://github.com/remarkjs/remark-lint).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the Remark Lint project._**
 
@@ -37,7 +41,7 @@ Should you discover an issue please:
 
   The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors.
 
-  (c) Documentation, 2017 - 2020 Ross Clark and [Archiv8 Contributors](https://github.com/Archiv8/nodejs-remark-lint/people)
+  (c) Documentation and Code, 2017 - 2020 Ross Clark and [Archiv8 Contributors](https://github.com/Archiv8/nodejs-remark-lint/people)
 
   ---
 

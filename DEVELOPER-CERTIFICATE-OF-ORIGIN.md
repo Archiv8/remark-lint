@@ -52,7 +52,7 @@ By making a contribution to this project, I certify that:
 
     The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors.
 
-    (c) Documentation, 2017 - 2020 Ross Clark and [Archiv8 Contributors](https://github.com/Archiv8/nodejs-remark-lint/people)
+    (c) Documentation and Code, 2017 - 2020 Ross Clark and [Archiv8 Contributors](https://github.com/Archiv8/nodejs-remark-lint/people)
 
     ---
 
