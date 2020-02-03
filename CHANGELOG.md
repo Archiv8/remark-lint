@@ -14,22 +14,25 @@ All notable changes to the project are documented in this file using rules based
 
 | Commit  | Date       | Title / Overview                                      |
 | ------- | ---------- | ----------------------------------------------------- |
-|  latest | 2020-02-02 | :id: SHA: Regenerate mismatched sums                  |
-| 5bca888 | 2020-02-02 | :date: CHANGE: Add items to changelog                 |
-| 7205a89 | 2020-02-02 | :pencil: DOC(spell): Update spellings list            |
+|         |            |                                                       |
+
 
 ## [1.1.0] - 2020-02-03
 
 ### This release addresses
 
-- Correction of SHA256 sums for checking files prior to install
+- Copyright and licensing
 
 ### This release includes
 
 | Commit  | Date       | Title / Overview                                      |
 | ------- | ---------- | ----------------------------------------------------- |
-| 7c7d966 | 2020-02-02 | :pencil: DOC(spell): Update spellings list            |
-| 7c7d966 | 2020-02-02 | :pencil: DOC(spell): Update spellings list            |
+|  latest | 2020-02-03 | :id: SECURE: Regenerate sums for changed files        |
+|  latest | 2020-02-03 | :date: LOG: Reference new changes                     |
+| 2426a82 | 2020-02-03 | :package: PACK: Update to install new items           |
+| 2426a82 | 2020-02-03 | :policeman: DOC(copy): Update copyright               |
+| 8979cf2 | 2020-02-03 | :policeman: DOC(copy): Update copyright to include code |
+| 7c7d966 | 2020-02-03 | :pencil: DOC(spell): Update spellings list            |
 | b4ff35f | 2020-02-02 | :id: SECURE: Regenerate sums for changed files        |
 | 5bca888 | 2020-02-02 | :date: CHANGE: Add items to changelog                 |
 | 7205a89 | 2020-02-02 | :pencil: DOC(spell): Update spellings list            |
