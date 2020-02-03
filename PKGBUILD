@@ -32,6 +32,7 @@ source=(
 "ISSUES.md"
 "LICENSE"
 "LICENSE.md"
+"MIT.md"
 "README.md"
 )
 # noextract=()
@@ -86,9 +87,10 @@ package() {
   install -dvm 755 "$pkgdir/usr/share/doc/$pkgname/packaging/"
 
   # Install Archiv8 Documentation
-  install -Dm 644 "CC-by-SA-v4.md" "$pkgdir/usr/share/doc/$pkgname/packaging/CC-by-SA-v4.md"
+  install -Dm 644 "CC-by-SA-v4.md" "$pkgdir/usr/share/licenses/$pkgname/packaging/CC-by-SA-v4.md"
   install -Dm 644 "CHANGELOG.md" "$pkgdir/usr/share/doc/$pkgname/packaging/CHANGELOG.md"
   install -Dm 644 "ISSUES.md" "$pkgdir/usr/share/doc/$pkgname/packaging/ISSUES.md"
-  install -Dm 644 "LICENSE.md" "$pkgdir/usr/share/doc/$pkgname/packaging/LICENSE.md"
+  install -Dm 644 "LICENSE.md" "$pkgdir/usr/share/licenses/$pkgname/packaging/LICENSE.md"
+  install -Dm 644 "MIT.md" "$pkgdir/usr/share/licenses/$pkgname/packaging/MIT.md"
   install -Dm 644 "README.md" "$pkgdir/usr/share/doc/$pkgname/packaging/README.md"
   }
