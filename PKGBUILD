@@ -38,7 +38,7 @@ noextract=("$_relname-$pkgver.tgz")
 # validpgpkeys=()
 sha256sums=('42929e6e1d0fbd2a1cf78ffc61b9ab0f28be3dccd6fd927bcae53efaf303e76c'
             'd5d0f08f7a548cefea3d4b072220bc4ec16811b06b633fb0ac6b3e8a0d62b525'
-            'e06e3b7393cf22a6dc6d33a8a28bc4b78cdab37da172ed01bcdc2cca5f7a6725'
+            '229aa34c06db33b5a563adef57452b9f01ee23404a7cf1341fb43838f36e2e2e'
             'f7727b16418bdf612f03241680f540c9794f51a6ca0c17d2213025fd4854dcd4'
             'ed52f87c3904a045931ff47fef50c31840b2f80f3618ce7a9d188918a9f83357'
             'e26f4376e602cfa64081b5e6b23967c7a736c0286fa28284e5d430630f5aa493'
