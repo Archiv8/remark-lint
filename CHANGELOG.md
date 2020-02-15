@@ -16,28 +16,46 @@ All notable changes to the project are documented in this file using rules based
 | ------- | ---------- | ----------------------------------------------------- |
 |         |            |                                                       |
 
-
-## [1.1.0] - 2020-02-03
+## :school: [1.1.1] - 2020-02-03
 
 ### This release addresses
 
 - Copyright and licensing
+- Updating CHANGELOG.md
+- Adding new items for installation
 
 ### This release includes
 
 | Commit  | Date       | Title / Overview                                      |
 | ------- | ---------- | ----------------------------------------------------- |
-|  latest | 2020-02-03 | :id: SECURE: Regenerate sums for changed files        |
-|  latest | 2020-02-03 | :date: LOG: Reference new changes                     |
-| 2426a82 | 2020-02-03 | :package: PACK: Update to install new items           |
-| 2426a82 | 2020-02-03 | :policeman: DOC(copy): Update copyright               |
-| 8979cf2 | 2020-02-03 | :policeman: DOC(copy): Update copyright to include code |
+|      +2 | 2020-02-03 | :id: SECURE: Regenerate sums for changed files        |
+|      +1 | 2020-02-03 | :date: LOG: Reference new changes                     |
+| ac67933 | 2020-02-03 | :school: TOOL(spell): Add latest spellings to repo    |
+| e0d08b2 | 2020-02-03 | :wrench: TOOL(lint): Add extra presets                |
+
+## :cop: [1.1.0] - 2020-02-03
+
+### This release addresses
+
+- Copyright and licensing
+- Updating CHANGELOG.md
+- Adding new items for installation
+
+### This release includes
+
+| Commit  | Date       | Title / Overview                                      |
+| ------- | ---------- | ----------------------------------------------------- |
+| 5cadd39 | 2020-02-03 | :id: SECURE: Regenerate sums for changed files        |
+| 9d16401 | 2020-02-03 | :date: LOG: Reference new changes                     |
+| da46b0a | 2020-02-03 | :gift: PACK: Update to install new items              |
+| 2426a82 | 2020-02-03 | :cop: DOC(copy): Update copyright                     |
+| 8979cf2 | 2020-02-03 | :cop: DOC(copy): Update copyright to include code     |
 | 7c7d966 | 2020-02-03 | :pencil: DOC(spell): Update spellings list            |
 | b4ff35f | 2020-02-02 | :id: SECURE: Regenerate sums for changed files        |
 | 5bca888 | 2020-02-02 | :date: CHANGE: Add items to changelog                 |
 | 7205a89 | 2020-02-02 | :pencil: DOC(spell): Update spellings list            |
 
-## [1.0.1] - 2020-02-02
+## :wrench: [1.0.1] - 2020-02-02
 
 ### This release addresses
 
@@ -49,7 +67,7 @@ All notable changes to the project are documented in this file using rules based
 | ------- | ---------- | ----------------------------------------------------- |
 | a7d7cb4 | 2020-02-02 | :wrench: FIX: Regenerate mismatched sums              |
 
-## [1.0.0] - 2020-02-02
+## :tada: [1.0.0] - 2020-02-02
 
 ### This release addresses
 
