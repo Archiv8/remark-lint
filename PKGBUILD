@@ -1,4 +1,3 @@
-# shellcheck shell=bash
 # Maintainer: Archiv8 <archiv8@artisteducator.com>
 # Contributor: Archiv8 <archiv8@artisteducator.com>
 
@@ -35,7 +34,7 @@ source=(
 "MIT.md"
 "README.md"
 )
-# noextract=()
+noextract=("$_relname-$pkgver.tgz")
 # validpgpkeys=()
 sha256sums=('42929e6e1d0fbd2a1cf78ffc61b9ab0f28be3dccd6fd927bcae53efaf303e76c'
             'd5d0f08f7a548cefea3d4b072220bc4ec16811b06b633fb0ac6b3e8a0d62b525'
@@ -81,8 +80,9 @@ package() {
   mv "$tmppackage" "$pkgjson"
   chmod 644 "$pkgjson"
 
-  # Install license
-  install -Dm 644 "LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+# Install license
+install -dm755 "${pkgdir}/usr/share/licenses/${pkgname}"
+ln -s ../../../lib/node_modules/eslint/LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 
   # Create Archiv8 documentation folder
   install -dvm 755 "$pkgdir/usr/share/doc/$pkgname/packaging/"
