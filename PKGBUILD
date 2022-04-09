@@ -16,7 +16,7 @@
 # pkgbase=
 pkgname="remark-lint"
 pkgver=9.1.1
-pkgrel=1
+pkgrel=4
 # epoch=
 pkgdesc="Command line interface for remark, a markdown processor powered by plugins."
 arch=("any")
@@ -82,6 +82,8 @@ package() {
   jq '.|=with_entries(select(.key|test("_.+")|not))' "$pkgjson" > "$tmppackage"
   mv "$tmppackage" "$pkgjson"
   chmod 644 "$pkgjson"
+
+rm -rf "$pkgdir/usr/lib/node_modules/root"
 
 # Install license
 # install -dm755 "${pkgdir}/usr/share/licenses/${pkgname}"
