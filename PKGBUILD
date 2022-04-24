@@ -14,13 +14,13 @@
 
 
 # pkgbase=
-pkgname="remark-lint"
-pkgver=9.1.1
-pkgrel=4
+pkgname="stylus"
+pkgver=0.57.0
+pkgrel=1
 # epoch=
-pkgdesc="Command line interface for remark, a markdown processor powered by plugins."
+pkgdesc="Stylus is a revolutionary new language, providing an efficient, dynamic, and expressive way to generate CSS. Supporting both an indented syntax and regular CSS style."
 arch=("any")
-url="https://github.com/remarkjs/remark-lint"
+url="https://stylus-lang.com/"
 license=("MIT")
 # groups=()
 depends=("nodejs")
@@ -46,7 +46,7 @@ source=(
 )
 noextract=("${pkgname}-$pkgver.tgz")
 # validpgpkeys=()
-sha512sums=('ce17bab70baa824c7ff4a819c8dc9a3b471c780e2342e25ccb330e042f8966203330dea615499cb2c599c98df4928f2eb7dbd00cc5ffa72427a251a7f8583f4f')
+sha512sums=('c8e23a1bc5987ebd2af2ff2b46f13dd706f1154fab24fa3beb455ae0c17a2b423a0598cee2bfb14b29e4bf23c13fdb55d4220451e46c8a276322cdabcdbd429d')
 
 # prepare () {}
 
@@ -60,22 +60,22 @@ package() {
   printf "    This may take some time depending on the size of the package and number of dependencies to download... \e[0m\n"
   npm install --cache "$srcdir/npm-cache" -g --user root --prefix "$pkgdir"/usr "$srcdir"/${pkgname}-$pkgver.tgz
 
-  # Fix incorrect user / group as highlighted by namcap
+  # [Fixes]: incorrect user / group as highlighted by namcap
   printf "\e[1;32m==>\e[0m \e[38;5;248mCorrecting possible ownership issues\e[0m\n"
   while IFS= read -r fsitem; do
     chown -h root:root "$fsitem"
   done <   <(find "$pkgdir" -not -group root -not -user root)
 
-  # Non-deterministic race in npm gives 777 permissions to random directories.
+  # [Fixes]: Non-deterministic race in npm gives 777 permissions to random directories.
   # See https://github.com/npm/npm/issues/9359 for details.
   printf "\e[1;32m==>\e[0m \e[38;5;248mCorrecting possible permission issues on directories\e[0m\n"
   find "$pkgdir/usr" -type d -exec chmod 755 '{}' +
 
-  # Remove references to $pkgdir
+  # [Fixes]: References to $pkgdir
   printf "\e[1;32m==>\e[0m \e[38;5;248mRemoving references to \$pkgdir\e[0m\n"
   find "$pkgdir" -type f -name package.json -print0 | xargs -0 sed -i "/_where/d"
 
-  # Remove references to $srcdir
+  # [Fixes]: References to $srcdir
   printf "\e[1;32m==>\e[0m \e[38;5;248mRemoving references to \$srcdir \e[0m\n"
   local tmppackage="$(mktemp)"
   local pkgjson="$pkgdir/usr/lib/node_modules/${pkgname}/package.json"
